@@ -1,1 +1,1 @@
-this is my repository that contains practice document.
+This is my repository that contains practice document along with class notes.
