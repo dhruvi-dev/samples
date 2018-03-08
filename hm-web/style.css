@@ -1,0 +1,85 @@
+body {
+	background: url(images/doc-bk.jpg);
+	width: 90%;
+	margin: auto;
+}
+.container {
+	display: grid;
+	grid-template-columns: 300px 1fr;
+}
+.header {
+	grid-column: 1/3;
+}
+
+.height-100px{
+	height:  100px;
+}
+.width-200px {
+	width: 200px;
+}
+.text-center {
+	text-align: center;
+}
+.main {
+	grid-column: 1/3;
+	border: 5px solid white;
+}
+.header-image {
+	background: url(images/4.jpg) no-repeat 0 -100px;
+	background-size: cover;
+	height: 200px;
+}
+ 
+.menu {
+	grid-column: 1/3;
+	background-color: black;
+}
+.menu li {
+	display: inline-block;
+	padding-left: 40px;
+}
+li a {
+	text-decoration: none;
+	padding-left: 10px;
+	color: white;
+}
+li a:hover {
+	background-color:  red;
+}
+.border {
+	border: 1px solid black;
+}
+.center {
+   margin: auto;
+}
+ 
+.content {
+	margin-left:  10px;
+}
+ .padding-top {
+ 	padding-top: 50px;
+ }
+ .float-left {
+ 	float: left;
+ }
+ .float-right {
+ 	float: right;
+ }
+ .clear {
+ 	clear: both;
+ }
+ .line-height {
+ 	line-height: 1.4em;
+ }
+ /* text color */
+ .text-red { color: red; }
+ .text-green { color: green; }
+ .two-col-grid {
+ 	display: grid;
+ 	grid-template-columns: 1fr 5fr;
+ }
+ .img-responsive {
+ 	width: 80%;
+ 	padding: 15px;
+ 	border-radius: 5px;
+ }
